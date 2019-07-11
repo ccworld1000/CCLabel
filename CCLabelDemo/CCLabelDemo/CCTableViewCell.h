@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <CCLabel.h>
 
 @interface CCTableViewCell : UITableViewCell
 
-@end
+@property (nonatomic, copy) NSString *summaryText;
+@property (nonatomic, strong) CCLabel *summaryLabel;
 
-NS_ASSUME_NONNULL_END
++ (CGFloat)heightForCellWithText:(NSString *)text availableWidth:(CGFloat)availableWidth;
+
+@end
