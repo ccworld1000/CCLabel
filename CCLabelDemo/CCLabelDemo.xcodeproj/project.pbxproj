@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00906EC422CB51D0001B5310 /* CCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00906EC322CB51D0001B5310 /* CCTableViewCell.m */; };
 		00ADB29522C6508200666B25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ADB29422C6508200666B25 /* AppDelegate.m */; };
 		00ADB29822C6508200666B25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ADB29722C6508200666B25 /* ViewController.m */; };
 		00ADB29B22C6508200666B25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ADB29922C6508200666B25 /* Main.storyboard */; };
 		00ADB29D22C6508400666B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ADB29C22C6508400666B25 /* Assets.xcassets */; };
 		00ADB2A022C6508400666B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ADB29E22C6508400666B25 /* LaunchScreen.storyboard */; };
 		00ADB2A322C6508400666B25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ADB2A222C6508400666B25 /* main.m */; };
+		00ADB2B022C6535D00666B25 /* espressos.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00ADB2AF22C6535C00666B25 /* espressos.txt */; };
+		00DD14AC22D73D7D0084D4E8 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DD14AB22D73D7D0084D4E8 /* DetailVC.m */; };
+		45C2B029DB78DC0C47901893 /* libPods-CCLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0623EEAD68B35A84545985E6 /* libPods-CCLabelDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00906EC222CB51D0001B5310 /* CCTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCTableViewCell.h; sourceTree = "<group>"; };
+		00906EC322CB51D0001B5310 /* CCTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCTableViewCell.m; sourceTree = "<group>"; };
 		00ADB29022C6508200666B25 /* CCLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ADB29322C6508200666B25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00ADB29422C6508200666B25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		00ADB29F22C6508400666B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00ADB2A122C6508400666B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00ADB2A222C6508400666B25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00ADB2AF22C6535C00666B25 /* espressos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = espressos.txt; sourceTree = "<group>"; };
+		00DD14AA22D73D7D0084D4E8 /* DetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		00DD14AB22D73D7D0084D4E8 /* DetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		0623EEAD68B35A84545985E6 /* libPods-CCLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		255D129EC60165FC49104D24 /* Pods-CCLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCLabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-CCLabelDemo/Pods-CCLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		69A3E9BD94E8A7012703392D /* Pods-CCLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCLabelDemo.release.xcconfig"; path = "Target Support Files/Pods-CCLabelDemo/Pods-CCLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C2B029DB78DC0C47901893 /* libPods-CCLabelDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				00ADB29222C6508200666B25 /* CCLabelDemo */,
 				00ADB29122C6508200666B25 /* Products */,
+				7E561049B2186D7BD46148C4 /* Pods */,
+				1C61D8F1C64F79CD2C043686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +77,35 @@
 				00ADB29422C6508200666B25 /* AppDelegate.m */,
 				00ADB29622C6508200666B25 /* ViewController.h */,
 				00ADB29722C6508200666B25 /* ViewController.m */,
+				00DD14AA22D73D7D0084D4E8 /* DetailVC.h */,
+				00DD14AB22D73D7D0084D4E8 /* DetailVC.m */,
+				00ADB2AF22C6535C00666B25 /* espressos.txt */,
 				00ADB29922C6508200666B25 /* Main.storyboard */,
 				00ADB29C22C6508400666B25 /* Assets.xcassets */,
 				00ADB29E22C6508400666B25 /* LaunchScreen.storyboard */,
 				00ADB2A122C6508400666B25 /* Info.plist */,
 				00ADB2A222C6508400666B25 /* main.m */,
+				00906EC222CB51D0001B5310 /* CCTableViewCell.h */,
+				00906EC322CB51D0001B5310 /* CCTableViewCell.m */,
 			);
 			path = CCLabelDemo;
+			sourceTree = "<group>";
+		};
+		1C61D8F1C64F79CD2C043686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0623EEAD68B35A84545985E6 /* libPods-CCLabelDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E561049B2186D7BD46148C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				255D129EC60165FC49104D24 /* Pods-CCLabelDemo.debug.xcconfig */,
+				69A3E9BD94E8A7012703392D /* Pods-CCLabelDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +115,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00ADB2A622C6508400666B25 /* Build configuration list for PBXNativeTarget "CCLabelDemo" */;
 			buildPhases = (
+				2F11EB9771AADADFE6CE3574 /* [CP] Check Pods Manifest.lock */,
 				00ADB28C22C6508200666B25 /* Sources */,
 				00ADB28D22C6508200666B25 /* Frameworks */,
 				00ADB28E22C6508200666B25 /* Resources */,
@@ -130,11 +168,37 @@
 			files = (
 				00ADB2A022C6508400666B25 /* LaunchScreen.storyboard in Resources */,
 				00ADB29D22C6508400666B25 /* Assets.xcassets in Resources */,
+				00ADB2B022C6535D00666B25 /* espressos.txt in Resources */,
 				00ADB29B22C6508200666B25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F11EB9771AADADFE6CE3574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00ADB28C22C6508200666B25 /* Sources */ = {
@@ -142,6 +206,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00ADB29822C6508200666B25 /* ViewController.m in Sources */,
+				00DD14AC22D73D7D0084D4E8 /* DetailVC.m in Sources */,
+				00906EC422CB51D0001B5310 /* CCTableViewCell.m in Sources */,
 				00ADB2A322C6508400666B25 /* main.m in Sources */,
 				00ADB29522C6508200666B25 /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +349,7 @@
 		};
 		00ADB2A722C6508400666B25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255D129EC60165FC49104D24 /* Pods-CCLabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +366,7 @@
 		};
 		00ADB2A822C6508400666B25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A3E9BD94E8A7012703392D /* Pods-CCLabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
