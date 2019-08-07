@@ -8,18 +8,6 @@
 
 #import "CCLabel.h"
 
-//@implementation CCLabel
-//
-///*
-//// Only override drawRect: if you perform custom drawing.
-//// An empty implementation adversely affects performance during animation.
-//- (void)drawRect:(CGRect)rect {
-//    // Drawing code
-//}
-//*/
-//
-//@end
-
 #import <QuartzCore/QuartzCore.h>
 #import <Availability.h>
 #import <objc/runtime.h>
